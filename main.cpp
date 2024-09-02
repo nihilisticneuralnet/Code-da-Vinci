@@ -169,7 +169,7 @@ public:
 
             cout << "Fitness: " << sortedPopulation[0].getFitness(targetImage) << endl;
             if (i + 1 == nbGeneration) {
-                imwrite("res.png", sortedPopulation[0].image);
+                imwrite("final.png", sortedPopulation[0].image);
                 break;
             } else if (i % 5 == 0) {
                 imwrite("generation" + to_string(i) + ".png", sortedPopulation[0].image);
