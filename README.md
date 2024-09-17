@@ -20,9 +20,9 @@ The algorithm is based on the following steps:
 ## Results
 
 The result of this different steps are shown below.
-| image | 500 generations | 1000 generations |
-| --- | --- | --- |
-| <img src="images/mona.png" width="200"/> | <img src="images/generation500.png" width="200"/> | <img src="images/final.png" width="200"/> |
+| image | 0 generations | 250 generations | 500 generations | 750 generations | 1000 generations |
+| --- | --- | --- | --- | --- | --- |
+| <img src="images/mona.png" width="200"/> | <img src="images/generation0.png" width="200"/> | <img src="images/generation250.png" width="200"/> | <img src="images/generation500.png" width="200"/> | <img src="images/generation750.png" width="200"/> | <img src="images/final.png" width="200"/> |
 
 ## Reference:
 1. https://github.com/nathan-hoche/MonaLisa
