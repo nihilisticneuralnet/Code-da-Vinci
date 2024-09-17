@@ -8,7 +8,7 @@
 using namespace cv;
 using namespace std;
 
-// Random Color Generator
+// generate random colors
 Scalar getRandomColor() {
     return Scalar(rand() % 256, rand() % 256, rand() % 256);
 }
@@ -99,11 +99,11 @@ public:
 //     for (int i = 1; i < nbSubject; i++) {
 //         int crossover = rand() % size.width;
 
-//         // Create children images
+//         // create children images
 //         Mat child1 = Mat::zeros(size, CV_8UC3);
 //         Mat child2 = Mat::zeros(size, CV_8UC3);
 
-//         // Perform crossover
+//         // crossover
 //         parent.image(Rect(0, 0, crossover, size.height)).copyTo(child1(Rect(0, 0, crossover, size.height)));
 //         population[i].image(Rect(crossover, 0, size.width - crossover, size.height)).copyTo(child1(Rect(crossover, 0, size.width - crossover, size.height)));
 
@@ -125,7 +125,7 @@ public:
     for (int i = 1; i < nbSubject; i++) {
         int crossover = rand() % size.width;
 
-        // Ensure deep clones for both children
+        // deep clones for both children
         Mat child1 = Mat::zeros(size, CV_8UC3);
         Mat child2 = Mat::zeros(size, CV_8UC3);
 
