@@ -17,5 +17,13 @@ The algorithm is based on the following steps:
 5. Apply mutation to the population (except the previous best individual), which consists in adding a random polygon to all individuals
 6. Repeat from step 2, x times to upgrade the image
 
+## Results
+
+The result of this different steps are shown below.
+| image | 500 generations | 1000 generations |
+| --- | --- | --- |
+| <img src="images/mona.png" width="200"/> | <img src="images/generation500.png" width="200"/> | <img src="images/final.png" width="200"/> |
+
 ## Reference:
 1. https://github.com/nathan-hoche/MonaLisa
+2. https://users.cg.tuwien.ac.at/zsolnai/gfx/mona_lisa_parallel_genetic_algorithm/
