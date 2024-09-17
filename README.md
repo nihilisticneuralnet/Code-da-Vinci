@@ -1,4 +1,4 @@
-# Mona Lisa’s Genetic Makeover
+# Code da Vinci: Image Reconstruction using Genetic Algorithm
 
 ## Introduction
 
