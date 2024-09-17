@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project is a simple implementation of a genetic algorithm to recreate an image using polygons.
+This project is a simple implementation of a genetic algorithm to recreate an image using polygons and uses a parallel genetic algorithm for optimization.
 
 ## Approach
 
