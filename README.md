@@ -6,7 +6,7 @@ This project is a simple implementation of a genetic algorithm to recreate an im
 
 ## Approach
 
-Based on the [paper](https://medium.com/@sebastian.charmot/genetic-algorithm-for-image-recreation-4ca546454aaa) by Sebastian Charmot.
+Based on the [article](https://medium.com/@sebastian.charmot/genetic-algorithm-for-image-recreation-4ca546454aaa) by Sebastian Charmot.
 
 The algorithm is based on the following steps:
 
